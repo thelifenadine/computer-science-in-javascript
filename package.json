@@ -1,0 +1,30 @@
+{
+  "name": "computer-science-in-javascript",
+  "version": "1.0.0",
+  "description": "This repository contains code about various series of posts that I made [on my blog](http://blog.benoitvallon.com) about computer science (mostly data structures and sorting algorithms) reimplemented in JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require babel-register --reporter spec || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelifenadine/computer-science-in-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelifenadine/computer-science-in-javascript/issues"
+  },
+  "homepage": "https://github.com/thelifenadine/computer-science-in-javascript#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "lodash": "^4.17.10",
+    "mocha": "^5.1.1"
+  }
+}
